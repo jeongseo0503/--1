@@ -1,4 +1,4 @@
-def gukbabchung(n) :
-	return n//7000
-n=int(input("당신이 n년 뒤 받을 돈을 입력해 주십시오"))
-print("그 돈이면 국밥",gukbabchung(n),"그릇을 먹겠다")
+def gukbabchung(n) :                                  #년수 n에 대한 gukbabchung이라는 함수를 정의했다.
+	return n//7000                                #n을 7000(국밥 1그릇의 값)으로 나눈 만큼의 값을 받는다.
+n=int(input("당신이 n년 뒤 받을 돈을 입력해 주십시오"))#n년 뒤 받을 값을 정수값으로 입력한다.
+print("그 돈이면 국밥",gukbabchung(n),"그릇을 먹겠다") #출력할 문장, 값을 정의한다.
